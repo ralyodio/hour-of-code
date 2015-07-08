@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+var readlineSync = require('readline-sync');
+var limit = readlineSync.question('How high do you want to count? ');
+
+for ( var i=1; i<=limit; i++) {
+	console.log(i);
+}

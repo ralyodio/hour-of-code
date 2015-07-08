@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+
+var readlineSync = require('readline-sync');
+var name = readlineSync.question('What is your name? ');
+
+console.log('Your name is', name);
+
+
