@@ -1,14 +1,18 @@
-# EditorConfig is awesome: http://EditorConfig.org
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs
+# http://editorconfig.org
 
-# top-most EditorConfig file
 root = true
 
-# Unix-style newlines with a newline ending every file
 [*]
-end_of_line = lf
-insert_final_newline = true
-
-# 2 space indentation
-[**.*]
 indent_style = space
 indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = false
